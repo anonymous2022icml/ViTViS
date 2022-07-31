@@ -53,7 +53,9 @@ We use the timm library to load the pretrained models.
 After running these commands, you can find the visualizations in the `desktop` folder.
 
 
-Other experiments done in the paper can be found in `experiments` folder.
+Other experiments done in the paper can be found in the `experiments` folder.
 
 For the experiments that we need to load the imagenet dataset like the isolating CLS experiment, the code 
 assumes that the dataset is in data/imagenet/train for the training set, and data/imagenet/val for the validation set.
+
+We will update the readme with more instructions on how to run other experiments soon.
