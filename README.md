@@ -12,18 +12,22 @@ PYTHONPATH=. python experiments/it15/vis35.py -l <layer_number> -f <feature_numb
 
 For example: 
 
-`PYTHONPATH=. python experiments/it15/vis35.py -l 4 -f 20 -n  35 -v 0.1`
+```python
+PYTHONPATH=. python experiments/it15/vis35.py -l 4 -f 20 -n  35 -v 0.1
+```
 
 ### Clip Models:   
 To visualize the features of the CLIP models:
 
-``
+```python
 PYTHONPATH=. python experiments/it15/vis98.py -l <layer_number> -f <feature_number> -n  <network_number> -v <tv_coefficient>
-``
+```
 
 For example: 
 
-`PYTHONPATH=. python experiments/it15/vis98.py -l 4 -f 20 -n  98 -v 0.1`
+```python
+PYTHONPATH=. python experiments/it15/vis98.py -l 4 -f 20 -n  98 -v 0.1
+```
 
 
 
@@ -32,7 +36,9 @@ For the ViT models the -n option should be in [34, 35, 36, 37, 38, 39],
 and for the CLIP models the -n option should be in [94, 95, 96, 97, 98, 99]
 
 To list all the available network numbers use:
-``python show_models.py``
+```python3
+python show_models.py
+```
 
 Here we list some of them:
 
