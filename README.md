@@ -6,9 +6,9 @@
 
 To visualize the features of the ViT models:
 
-``
+```python
 PYTHONPATH=. python experiments/it15/vis35.py -l <layer_number> -f <feature_number> -n  <network_number> -v <tv_coefficient>
-``
+```
 
 For example: 
 
